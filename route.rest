@@ -1,0 +1,31 @@
+// Need ***REST Client*** extension on VScode to run this file 
+
+GET http://localhost:3000/subscribers
+
+### 
+
+GET http://localhost:3000/subscribers/603e052e2041de4478eecc81
+
+### 
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "Meraj Kazi"
+}
+
+### 
+
+DELETE http://localhost:3000/subscribers/603e052e2041de4478eecc81
+
+### 
+
+PATCH  http://localhost:3000/subscribers/603e052e2041de4478eecc81
+Content-Type: application/json
+
+{
+    "name": "New Name",
+    "subscribedToChannel": "Meraj Kazi"
+}
