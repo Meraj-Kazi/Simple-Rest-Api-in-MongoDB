@@ -1,4 +1,4 @@
-// Need ***REST Client*** extension on VScode to run this file 
+// Need to install ***REST Client*** extension on VScode to run this file 
 
 GET http://localhost:3000/subscribers
 
